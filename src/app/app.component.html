@@ -12,3 +12,9 @@
 <h2>*ngIf</h2>
 <div *ngIf="switch">Conditional Text</div>
 <button (click)="onSwitch()">Switch</button>
+
+<hr>
+<h2>*ngFor</h2>
+<ul>
+  <li *ngFor="let item of items; let i = index">{{item}} - (Index: {{i}})</li>
+</ul>
